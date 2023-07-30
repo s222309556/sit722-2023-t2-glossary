@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SIT722 DevOps Glossary</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    td {
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>SIT722 DevOps Glossary</h1>
+  <p>Welcome to my website showing a collection of DevOps terms and thier brief descriptions.</p>
+
+  <!--table with 4 columns-->
+  <table>
+    <tr>
+      <th style="width: 10%;">ID#</th>
+      <th style="width: 10%;">Term</th>
+      <th style="width: 40%;">Descrition</th>
+      <th style="width: 40%">References</th>
+    </tr>
+    <% for(var i=0; i<terms.length; i++) {%>
+      <tr>
+        <td>
+          <%= terms[i].id %>
+        </td>
+        <td>
+          <%= terms[i].term %>
+        </td>
+        <td>
+          <%= terms[i].description %>
+        </td>
+        <td>
+          <%= terms[i].reference %>
+        </td>
+      </tr>
+      <% } %>
+  </table>
+
+</body>
+
+</html>
