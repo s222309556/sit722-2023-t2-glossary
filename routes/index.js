@@ -91,6 +91,96 @@ const terms = [
     reference:
       "What is Deployment?, umbraco, [Online]. Available: https://umbraco.com/knowledge-base/deployment/.",
   },
+
+  {
+    id: 11,
+    term: "Technical Debt",
+    description:
+      "Technical debt in software development is the implied cost of additional rework incurred by picking an easy solution now rather than a better alternative that takes longer.",
+    reference:
+      "Technical Debt, [Online]. Available: https://www.techopedia.com/definition/27913/technical-debt.",
+  },
+
+  {
+    id: 12,
+    term: "Azure",
+    description:
+      "Microsoft Azure is a cloud computing service for designing, testing, deploying, and managing applications and services in Microsoft-managed data centres.",
+    reference:
+      "What is Azure?, Microsoft Azure, [Online]. Available: https://azure.microsoft.com/en-au/overview/what-is-azure/",
+  },
+
+  {
+    id: 13,
+    term: "DevOps Cycle",
+    description:
+      "Software development and deployment take place continuously within the DevOps cycle. Development and operation are both involved.",
+    reference:
+      "A. Bhasin, What is DevOps Life Cycle | Key Components & Phases with Examples?, 12 June 2023. [Online]. Available: https://testsigma.com/blog/author/anshita-bhasin/.",
+  },
+
+  {
+    id: 14,
+    term: "Continuous integration",
+    description:
+      "Continuous integration (CI) is a prevalent software development methodology wherein developers consistently merge their code modifications into a central repository. Subsequently, automated processes are initiated to build and test the integrated code changes.",
+    reference:
+      "H. Dhaduk, DevOps Lifecycle: 7 Phases Explained in Detail with Examples, 13 Jan 2022. [Online]. Available: https://www.simform.com/blog/devops-lifecycle/.",
+  },
+
+  {
+    id: 15,
+    term: "Continuous delivery",
+    description:
+      "Continuous delivery involves automatically building, testing, and getting updated code ready for production release. By delivering all code alterations to testing environments and/or production environments after the build step, it advances continuous integration.",
+    reference:
+      "Continuous integration vs. delivery vs. deployment, Atlassian, [Online]. Available: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment",
+  },
+
+  {
+    id: 16,
+    term: "Continuous deployment",
+    description:
+      "Continuous deployment refers to the automated process of deploying software code to a production environment.",
+    reference:
+      "Continuous integration vs. delivery vs. deployment, Atlassian, [Online]. Available: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment",
+  },
+
+  {
+    id: 17,
+    term: "PreProd",
+    description:
+      "Pre-production prepares code for production-like deployment. It verifies application behavior and resolves deployment concerns before production deployment.",
+    reference:
+      "J. Mulder, Enterprise DevOps for Architects: Leverage AIOps and DevSecOps for sure digital transformation, 2021.",
+  },
+
+  {
+    id: 18,
+    term: "Continuous improvement",
+    description:
+      "Continuous improvement improves products, services, and processes. These initiatives can seek gradual or sudden progress.",
+    reference:
+      "Continuous Improvement, [Online]. Available: https://asq.org/quality-resources/continuous-improvement",
+  },
+
+  {
+    id: 19,
+    term: "Cross-functional autonomous teams",
+    description:
+      "Self-organizing cross-functional autonomous teams produce a product or commercial result. Their members have diverse expertise.",
+    reference:
+      "Cross Functional Autonomous Teams - DevOps Principle #4, [Online]. Available: https://www.pufferfish.solutions/post/cross-functional-autonomous-teams-devops-principle-4",
+  },
+
+  {
+    id: 20,
+    term: "Continuous monitoring",
+    description:
+      "Continuous monitoring collects, analyses, and acts on IT system data to optimise performance and availability.",
+    reference:
+      "C. C. Sourojit Das, DevOps Lifecycle : Different Phases in DevOps, 24 Feb 2023. [Online]. Available: https://www.browserstack.com/guide/devops-lifecycle.",
+  },
 ];
 
 /* GET home page. */
