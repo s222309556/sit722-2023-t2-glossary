@@ -181,6 +181,96 @@ const terms = [
     reference:
       "C. C. Sourojit Das, DevOps Lifecycle : Different Phases in DevOps, 24 Feb 2023. [Online]. Available: https://www.browserstack.com/guide/devops-lifecycle.",
   },
+
+  {
+    id: 21,
+    term: "Containers",
+    description:
+      "Containers let run an application and its dependencies in a resource-isolated process. Containers are lighter than virtual machines since they don't need a guest OS.",
+    reference:
+      "What is a Container?, Docker, [Online]. Available: https://www.docker.com/resources/what-container.",
+  },
+
+  {
+    id: 22,
+    term: "Docker",
+    description:
+      "Docker develops, deploys, and runs containerized applications. It lets decouple apps from infrastructure to deploy software quickly.",
+    reference:
+      "Docker overview, docker docs, [Online]. Available: https://docs.docker.com/get-started/overview/",
+  },
+
+  {
+    id: 23,
+    term: "Virtual Machines",
+    description:
+      "VMs are software computers that run on hardware. Multiple operating systems can run on one computer.",
+    reference:
+      "What is a Virtual MachineS?, VMware, [Online]. Available: https://www.vmware.com/topics/glossary/content/virtual-machine",
+  },
+
+  {
+    id: 24,
+    term: "Infrastructure as Code",
+    description:
+      "Infrastructure as Code (IaC) manages and provisioned computer data centres using machine-readable definition files instead of hardware setup or interactive tools.",
+    reference:
+      "What is Infrastructure as Code (IaC)?, [Online]. https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=choose%20Red%20Hat%3F-,Overview,to%20edit%20and%20distribute%20configurations.",
+  },
+
+  {
+    id: 25,
+    term: "Kubernetes cluster",
+    description:
+      "Kubernetes clusters are groups of nodes that run containerized applications. Kubernetes clusters let you manage the containers in your data centre, cloud, or both.",
+    reference:
+      "What is a Kubernetes Cluster?, Kubernetes, [Online]. Available: https://kubernetes.io/docs/concepts/architecture/what-is-kubernetes/#:~:text=A%20Kubernetes%20cluster%20is%20a,both%20public%20and%20private%20clouds.",
+  },
+
+  {
+    id: 26,
+    term: "Docker compose",
+    description:
+      "Docker Compose is a software utility that facilitates the specification and execution of Docker applications consisting of several containers.",
+    reference:
+      "Docker Compose overview, docker docks, [Online]. Available: https://docs.docker.com/compose/",
+  },
+
+  {
+    id: 27,
+    term: "Containerisation",
+    description:
+      "Containerization is a technique of virtualizing operating systems that enables the execution of a programme and its associated dependencies within isolated processes that have dedicated resources.",
+    reference:
+      "What is Containerization?, Check point, [Online]. Available: https://www.checkpoint.com/cyber-hub/cloud-security/what-is-container-security/what-is-containerization/#:~:text=Containerization%20is%20a%20type%20of,and%20highly%20conducive%20to%20automation.",
+  },
+
+  {
+    id: 28,
+    term: "Scripting",
+    description:
+      "Writing computer instructions is scripting. Scripts automate administrative duties that would otherwise be done manually.",
+    reference:
+      "What Is Scripting and What Is It Used For?, [Online]. Available: https://www.bestcolleges.com/bootcamps/guides/what-is-scripting/#:~:text=Scripting%20is%20primarily%20used%20to,extracting%20information%20from%20a%20dataset.",
+  },
+
+  {
+    id: 29,
+    term: "Container image",
+    description:
+      "Container images are lightweight, standalone, executable packages that include code, runtime, system tools, system libraries, and settings to run an application.",
+    reference:
+      "Use containers to Build, Share and Run your applications, [Online]. Available: https://www.docker.com/resources/what-container/",
+  },
+
+  {
+    id: 30,
+    term: "Container repository",
+    description:
+      "A container repository contains related container images, such as several versions of the same programme or multiple system applications.",
+    reference:
+      "Container repositories, Docker, [Online]. Available: https://www.docker.com/resources/what-container",
+  },
 ];
 
 /* GET home page. */
