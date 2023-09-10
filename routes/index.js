@@ -271,6 +271,96 @@ const terms = [
     reference:
       "Container repositories, Docker, [Online]. Available: https://www.docker.com/resources/what-container",
   },
+
+  {
+    id: 31,
+    term: "Container registry",
+    description:
+      "A container registry is a repository that is used to store container images.",
+    reference:
+      "What is a container registry?, Red Hat, [Online]. Available: https://www.redhat.com/en/topics/cloud-native-apps/what-is-a-container-registry",
+  },
+
+  {
+    id: 32,
+    term: "Bridge network",
+    description:
+      "A bridge network is a network configuration that facilitates communication between containers that are interconnected within the same bridge network.",
+    reference:
+      "Bridge network overview, Docker, [Online]. Available: https://docs.docker.com/network/bridge/",
+  },
+
+  {
+    id: 33,
+    term: "Overlay network",
+    description:
+      "An overlay network refers to a network architecture that facilitates communication between containers that are interconnected within the same overlay network.",
+    reference:
+      "overlay network, TechTarget, [Online]. https://www.techtarget.com/searchnetworking/definition/overlay-network#:~:text=An%20overlay%20network%20is%20a%20network%20that%20is%20built%20on,packet%20inside%20of%20another%20packet.",
+  },
+
+  {
+    id: 34,
+    term: "Macvlan network",
+    description:
+      "A macvlan network is a network configuration that facilitates communication between containers that are linked to the same macvlan network.",
+    reference:
+      "2 Minutes to Docker MacVLAN Networking – A Beginners Guide, Docker, [Online]. Available: https://collabnix.com/2-minutes-to-docker-macvlan-networking-a-beginners-guide/",
+  },
+
+  {
+    id: 35,
+    term: "Direct messaging",
+    description:
+      "Direct messaging is a form of interpersonal communication that facilitates direct and immediate interaction between two or more individuals.",
+    reference:
+      "Synchronous vs. Asynchronous Communication: How to Use Both to Dominate Remote Work, [Online]. Available: https://www.techsmith.com/blog/synchronous-vs-asynchronous-communication/",
+  },
+
+  {
+    id: 36,
+    term: "Indirect messaging",
+    description:
+      "Indirect messaging refers to a form of communication wherein multiple individuals engage in indirect exchanges with one another.",
+    reference:
+      "Synchronous vs. Asynchronous Communication: How to Use Both to Dominate Remote Work, [Online]. Available: https://www.techsmith.com/blog/synchronous-vs-asynchronous-communication/",
+  },
+
+  {
+    id: 37,
+    term: "RabbitMQ",
+    description:
+      "RabbitMQ, an open-source message broker, originally supported the Advanced Message Queuing Protocol but now supports Streaming Text Oriented Messaging Protocol, Message Queuing Telemetry Transport, and others using a plug-in architecture.",
+    reference:
+      "What is RabbitMQ?, [Online]. Available: https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html",
+  },
+
+  {
+    id: 38,
+    term: "amqplib API",
+    description:
+      "The AMQPLib is a client library for RabbitMQ in the Node.js environment, which effectively implements the AMQP 0.9.1 protocol model.",
+    reference:
+      "amqplib, [Online]. Available: https://amqp-node.github.io/amqplib/channel_api.html",
+  },
+
+  {
+    id: 39,
+    term: "Terraform",
+    description:
+      "Terraform is a software application categorised as open-source infrastructure as code, which facilitates the secure and efficient creation, integration, and modification of infrastructure.",
+    reference:
+      "What is Terraform?, [Online]. Available: https://developer.hashicorp.com/terraform/intro",
+  },
+
+  {
+    id: 40,
+    term: "HCL",
+    description:
+      "HCL is a configuration language designed to be easily understood by humans and processed by machines, specifically tailored for use with DevOps technologies.",
+    reference:
+      "HCL Interoperability, [Online]. Available: https://developer.hashicorp.com/terraform/cdktf/concepts/hcl-interoperability",
+  },
 ];
 
 /* GET home page. */
