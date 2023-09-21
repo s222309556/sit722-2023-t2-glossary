@@ -361,6 +361,96 @@ const terms = [
     reference:
       "HCL Interoperability, [Online]. Available: https://developer.hashicorp.com/terraform/cdktf/concepts/hcl-interoperability",
   },
+
+  {
+    id: 41,
+    term: "Deployment pipeline",
+    description:
+      "A deployment pipeline refers to a collection of automated procedures that improve the software development and deployment process.",
+    reference:
+      "What is a Deployment Pipeline?, [Online]. Available: https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment,%2C%20building%2C%20and%20deploying%20code.",
+  },
+
+  {
+    id: 42,
+    term: "Kubernetes deployment",
+    description:
+      "A Kubernetes deployment refers to a specific Kubernetes entity that enables the streamlined deployment of an application into a Kubernetes cluster.",
+    reference:
+      "What is Kubernetes Deployment?, [Online]. Available: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+  },
+
+  {
+    id: 43,
+    term: "Kubernetes service",
+    description:
+      "A Kubernetes service is a fundamental component of the Kubernetes platform, serving as a dedicated Kubernetes object designed to enable efficient and reliable communication between pods.",
+    reference:
+      "What is Kubernetes Service?, [Online]. Available: https://kubernetes.io/docs/concepts/services-networking/service/",
+  },
+
+  {
+    id: 44,
+    term: "Automated testing",
+    description:
+      "Automated testing refers to the utilisation of software tools and frameworks to conduct software testing activities.",
+    reference:
+      "What is Automated Testing?, [Online]. Available: https://www.techtarget.com/searchsoftwarequality/definition/automated-software-testing",
+  },
+
+  {
+    id: 45,
+    term: "Unit testing",
+    description:
+      "Unit testing refers to the systematic procedure of evaluating discrete units of code in order to ascertain their functionality and correctness.",
+    reference:
+      "What is Unit Testing?, [Online]. Available: https://www.techtarget.com/searchsoftwarequality/definition/unit-testing#:~:text=Unit%20testing%20is%20a%20software,tests%20during%20the%20development%20process.",
+  },
+
+  {
+    id: 46,
+    term: "Integration testing",
+    description:
+      "Integration testing refers to the systematic evaluation of the integration of multiple pieces of code.",
+    reference:
+      "What is Integration Testing?, [Online]. Available: https://www.guru99.com/integration-testing.html",
+  },
+
+  {
+    id: 47,
+    term: "End-to-end testing",
+    description:
+      "End-to-end testing refers to the comprehensive examination of a whole application.",
+    reference:
+      "What is End-to-End Testing?, [Online]. Available: https://www.guru99.com/integration-testing.html",
+  },
+
+  {
+    id: 48,
+    term: "Monitoring",
+    description:
+      "Monitoring refers to the systematic practise of observing and evaluating the operational performance of a given system.",
+    reference:
+      "Logging vs Monitoring: How are They Different & Why You Need Both, [Online]. Available: https://sematext.com/blog/apm-vs-log-management/",
+  },
+
+  {
+    id: 49,
+    term: "Logging",
+    description:
+      "The act of logging involves the systematic documentation of events that transpire inside a given system.",
+    reference:
+      "Logging vs Monitoring: How are They Different & Why You Need Both, [Online]. Available: https://sematext.com/blog/apm-vs-log-management/",
+  },
+
+  {
+    id: 50,
+    term: "AIOps",
+    description:
+      "AIOps refers to the utilisation of artificial intelligence techniques in order to enhance the monitoring capabilities of a system.",
+    reference:
+      "What is AIOps?, [Online]. Available: https://www.ibm.com/topics/aiops#:~:text=Coined%20by%20Gartner%2C%20AIOps%E2%80%94i.e.,automate%20and%20streamline%20operational%20workflows.",
+  },
 ];
 
 /* GET home page. */
